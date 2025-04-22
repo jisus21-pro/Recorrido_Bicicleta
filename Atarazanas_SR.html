@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu-horizontal">
+            <li><a href="R_Peatonal.html" data-es="Inicio" data-en="Initiation"></a></li>
+            <li>
+                <a href="https://maps.app.goo.gl/R5WWRt571QeAfGNMA" data-es="Visitar" data-en="Visit"></a>
+            </li>
+            <li>
+                <a href="#" data-es="Idioma" data-en="Lenguage"></a>
+                <ul class="menu-vertical">
+                    <li><button class="idioma1" onclick="cambiarIdioma('es')"></button>
+                        <span style="color: white;" data-es="Español" data-en="Spanish"></span>
+                    </li>
+                    <li><button class="idioma2" onclick="cambiarIdioma('en')"></button>
+                        <span style="color: white;" data-es="Ingles" data-en="English"></span>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+    <button id="botonEscuchar" class="boton-escuchar" onclick="leerTexto('texto1')" data-es="▶ Escuchar"
+        data-en="▶ Listen">
+    </button>
+
+    <div class="logo">
+        <img src="img/Logos/Logo.inah.png" alt="Imagen">
+    </div>
+
+    <h1 class="tittle" data-es="Atarazanas Playa San Román" data-en="San Román Beach Shipyards"></h1>
+
+
+
+
+    <div class="container">
+        <h3 id="texto1" data-es="El muelle de las Atarazanas en la Playa de San Román, en Campeche, tiene una rica historia que se remonta al siglo XVII. El 13 de enero de 1650, se estableció en esta playa el primer astillero de la ciudad, marcando el inicio de su tradición naval. Durante la época colonial, este astillero fue fundamental para la construcción de embarcaciones que defendían la ciudad de ataques piratas y facilitaban el comercio marítimo.
+        En la actualidad, el área es conocida como el Muelle de los Pescadores de San Román, un sitio emblemático donde se mezclan la historia y la vida cotidiana de los pescadores locales. El muelle conserva su importancia como punto de encuentro comunitario y es un atractivo turístico que refleja el legado marítimo de Campeche." data-en="The Atarazanas pier on Playa de San Román, in Campeche, has a rich history dating back to the 17th century. On January 13, 1650, the first shipyard in the city was established on this beach, marking the beginning of its naval tradition. During colonial times, this shipyard was essential for the construction of vessels that defended the city from pirate attacks and facilitated maritime trade.
+        Currently, the area is known as the San Román Fishermen's Dock, an emblematic site where the history and daily life of local fishermen mix. The pier retains its importance as a community meeting point and is a tourist attraction that reflects Campeche's maritime legacy.">
+        </h3>
+    </div>
+
+    <div class="imagenes">
+        <img src="img/Atarazanas_San_Roman/Muelle_SR2.jpg" alt="Imagen de las Atarazanas Playa San Román">
+        <img src="img/Atarazanas_San_Roman/Muelle_SR_Antiguo.jpg" alt="Imagen de las Atarazanas Playa San Román Antiguo">
+    </div>
+
+    <br><br>
+
+</body>
+<script src="script.js"></script>
+
+</html>

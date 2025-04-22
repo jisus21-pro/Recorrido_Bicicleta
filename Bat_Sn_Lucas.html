@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Poner el boton de escuchar en la esquina superior derecha y agrandar su tamaño-->
+    <!--Agrandar los titulos y justificar los textos-->
+    <!--Empezar a hacer el contador-->
+
+    <nav>
+        <ul class="menu-horizontal">
+            <li><a href="R_Peatonal.html" data-es="Inicio" data-en="Initiation"></a></li>
+            <li>
+                <a href="https://maps.app.goo.gl/MDzEioNyZTj6jtvo6" data-es="Visitar" data-en="Visit"></a>
+            </li>
+            <li>
+                <a href="#" data-es="Idioma" data-en="Lenguage"></a>
+                <ul class="menu-vertical">
+                    <li><button class="idioma1" onclick="cambiarIdioma('es')"></button>
+                        <span style="color: white;" data-es="Español" data-en="Spanish"></span>
+                    </li>
+                    <li><button class="idioma2" onclick="cambiarIdioma('en')"></button>
+                        <span style="color: white;" data-es="Ingles" data-en="Ingles"></span>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+
+    </div><br><br><br>
+    <div class="logo">
+        <img src="img/Logos/Logo.inah.png" alt="Imagen">
+    </div>
+
+    <h1 class="tittle" data-es="Batería de San Lucas" data-en="San Lucas Battery"></h1>
+
+    <button id="botonEscuchar" class="boton-escuchar" onclick="leerTexto('texto1')" data-es="▶ Escuchar" data="▶ Listen">
+    </button>
+
+    <div class="container">
+        <h3 id="texto1"
+            data-es="La Batería de San Lucas. Su función era de apoyo al reducto de San José. Fue construida por Agustín Crame. Es de forma semicircular e irregular; posee un explanada con capacidad para 8 cañones, tenía una rampa adosada al centro y dos cuartos. Su construcción duró 6 meses y se concluyó en 1792. Fue restaurada en los años 70’s.
+            Junto con la batería de San Matías defendían posibles desembarcos hacia barlovento, se encontraba en la costa a las faldas del reducto de San José. Aún conserva la rampa que nos conduce a la parte superior de su sólida estructura. En períodos de marea alta solía quedar rodeada por el mar.
+            En la actualidad constituye una pequeña glorieta a un costado del estadio de beisbol “Nelson Barrera Romellón”."
+            data-en="The Battery of Saint Luke. Its function was to support the San José redoubt. It was built by Agustín Crame. It is semicircular and irregular in shape; It has an esplanade with a capacity for 8 guns, it had a ramp attached to the center and two rooms. Its construction lasted 6 months and was completed in 1792. It was restored in the 70s ’ s.
+            Along with the San Matías battery, they defended possible landings towards windward, it was on the coast at the foot of the San José redoubt. It still preserves the ramp that leads us to the top of its solid structure. In periods of high tide it used to be surrounded by the sea.
+            Today it constitutes a small gazebo on one side of the baseball stadium “Nelson Barrera Romellón ”.">
+        </h3>
+
+    </div>
+
+    <div class="imagenes">
+        <img src="img/San_Lucas/San_Lucas2.jpg">
+        <img src="img/San_Lucas/San_Lucas3.jpg">
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
